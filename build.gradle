@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group 'com.nttdataprueba'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Serenity
+    testImplementation 'net.serenity-bdd:serenity-core:3.9.8'
+    testImplementation 'net.serenity-bdd:serenity-junit:3.9.8'
+    testImplementation 'net.serenity-bdd:serenity-screenplay:3.9.8'
+    testImplementation 'net.serenity-bdd:serenity-screenplay-webdriver:3.9.8'
+    testImplementation 'net.serenity-bdd:serenity-cucumber:3.9.8'
+
+    // Cucumber
+    testImplementation 'io.cucumber:cucumber-java:7.14.0'
+    testImplementation 'io.cucumber:cucumber-junit:7.14.0'
+
+    // Selenium
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.21.0'
+
+    // JUnit 4 (necesario para tu runner)
+    testImplementation 'junit:junit:4.13.2'
+
+    // Logging
+    testImplementation 'org.slf4j:slf4j-simple:2.0.9'
+}
+
+test {
+    // No usar JUnit Platform
+}

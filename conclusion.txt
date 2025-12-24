@@ -1,0 +1,16 @@
+Conclusiones del ejercicio SauceDemo - Serenity BDD
+===================================================
+
+- Se implementaron los casos principales de flujo de compra en SauceDemo:
+  inicio de sesión, agregar productos, checkout y validación de mensaje final.
+- Se incluyó un escenario adicional para validar login inválido.
+- La estructura del proyecto sigue el patrón Screenplay, lo que facilita
+  la reutilización de tareas, preguntas y definiciones de pasos.
+- Los reportes generados por Serenity ofrecen trazabilidad completa:
+  pasos ejecutados, capturas de pantalla y métricas de éxito/fallo.
+- Hallazgos: la aplicación SauceDemo responde correctamente a los flujos
+  básicos de compra; los escenarios negativos permiten validar robustez.
+- Buenas prácticas aplicadas: modularización de tareas, uso de Gherkin
+  en español, runner dedicado y reportes automáticos.
+- Posibles mejoras: parametrizar más productos, agregar escenarios de
+  error en checkout y validar mensajes de stock.
