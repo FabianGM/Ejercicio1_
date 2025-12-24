@@ -7,10 +7,10 @@ By default the tests run on Chrome, so make sure you have the latest chromedrive
 
 ---
 
-## 🚀 Prerequisites
+##Prer equisites
 
 - Windows 10 / 11
-- IntelliJ IDEA 2023.1 or higher
+- IntelliJ IDEA 2025.3.1 or higher
 - Gradle 8.14
 - JDK 11
 - Google Chrome updated
@@ -34,8 +34,15 @@ By default the tests run on Chrome, so make sure you have the latest chromedrive
 
 ---
 
-## 🔧 Installation Commands
+## 🔧 Para abrir el proyecto solo debes hacer lo siguiente:
 
-```bash
-gradlew clean build -x test
-gradlew test
+1. **Cargar el proyecto** con *IntelliJ IDEA 2025.3.1*  
+2. **Ejecutar** ▶️ en *IntelliJ IDEA 2025.3.1* la clase:  
+
+\Ejercicio1\src\test\java\com\nttdataprueba\saucedemo\stepdefinitions\CompraStepDefinitions.java
+
+Al hacerlo, se ejecutará el **RPA con Selenium** y se abrirá **Google Chrome**, como se muestra en este video:  
+[Ver demostración en YouTube](https://youtu.be/QqNfAlVgDj8)
+
+3. **Resultado final:**  
+![Resultado de la ejecución](image.png)
