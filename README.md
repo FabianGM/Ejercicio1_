@@ -48,7 +48,7 @@ Al hacerlo, se ejecutará el **RPA con Selenium** y se abrirá **Google Chrome**
 ![Resultado de la ejecución](image.png)
 
 
-## La data se encuentra en csv como indica el video demostrativo en teams adjunto imagen a respecto
+## La data se encuentra en csv como indica el video demostrativo en teams adjunto imagen
 <img width="1912" height="834" alt="image" src="https://github.com/user-attachments/assets/cae35d82-57f0-4dc1-a8a5-cc95a1237617" />
 
 
